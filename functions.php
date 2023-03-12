@@ -12,6 +12,8 @@ function remove_storefront_page_header()
     remove_action('storefront_page', 'storefront_page_header', 10);
     // to remove "Built with Storefront & WooCommerce.
     remove_action('storefront_footer', 'storefront_credit', 20);
+
+    wp_enqueue_style('some_test_haha', get_template_directory_uri(), );
 }
 
 
