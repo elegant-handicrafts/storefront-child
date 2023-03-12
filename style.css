@@ -1,0 +1,52 @@
+/*
+Theme Name:   Storefront Child (Elegant Handicrafts)
+Author:       Aabhas Dhaubanja
+Template:     storefront
+*/
+.site-header {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.woocommerce-products-header {
+  display: none;
+}
+
+.storefront-breadcrumb {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.site-content {
+  margin-top: 41.887px;
+  min-height: calc(100vh - 186px - 150px);
+}
+
+.woocommerce-info {
+  margin-top: 0 !important;
+}
+
+.search-field {
+  border-radius: 8px !important;
+}
+
+.storefront-breadcrumb {
+  display: none;
+}
+
+.content-area,
+.page {
+  margin-bottom: 0 !important;
+}
+
+footer {
+  padding: 50px 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .site-content {
+    min-height: calc(100vh - 186px - 100px);
+  }
+  footer {
+    margin-bottom: 68px;
+  }
+}
