@@ -1,0 +1,54 @@
+#primary-menu ul {
+  display: flex !important;
+  list-style-type: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#primary-menu ul li {
+  margin-left: 20px;
+}
+
+#primary-menu a {
+  color: white !important;
+}
+
+.screen-reader-text {
+  display: none !important;
+}
+
+#woocommerce-product-search-field-0 {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#woocommerce-product-search-field-0::placeholder {
+  color: white !important;
+}
+
+.wp-element-button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.site-search {
+  position: relative;
+}
+
+.navbar {
+  background: transparent;
+  position: absolute;
+  z-index: 10;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}

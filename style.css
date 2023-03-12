@@ -3,9 +3,15 @@ Theme Name:   Storefront Child (Elegant Handicrafts)
 Author:       Aabhas Dhaubanja
 Template:     storefront
 */
+
 .site-header {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
+}
+
+.site-search,
+.widget_product_search {
+  margin: 0 !important;
 }
 
 .woocommerce-products-header {

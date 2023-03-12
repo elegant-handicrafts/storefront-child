@@ -14,57 +14,20 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css' ?>" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/font-awesome.min.css' ?>" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/style.css' ?>" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/navbar.css' ?>" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <title>Lalita's - Home</title>
 </head>
 
 <body>
-
-    <!-- Header section -->
-    <!-- <header class="header-section">
-        <div class="container-fluid">
-            <div class="site-logo">
-                <h3>Loulou</h3>
-            </div>
-            <div class="nav-switch">
-                <i class="fa fa-bars"></i>
-            </div>
-            <div class="header-right">
-                <a href="#" class="search"><i class="bi bi-search"></i></a>
-                <a href="#" class="card-bag"><i class="bi bi-bag"></i></a>
-                <a href="#" class="user"><i class="bi bi-person"></i></a>
-            </div>
-            <ul class="main-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#" class="border-bottom">LookBook</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header> -->
-    <!-- Header section end -->
-
-
-    <!-- Hero section -->
-
     <section class="hero-section set-bg section-gap-bottom"
         data-setbg="<?php echo get_stylesheet_directory_uri() . '/assets/img/slider-img-tmp-2.jpg' ?>">
+        <?php get_template_part('template-parts/navbar') ?>
         <div class="hero-item">
             <div class="hero-content">
-                <!-- <div class="logo-wrapper mb-4">
-                    <img class="img-fluid" src="img/logo-head-removed-bg.png" />
-                </div> -->
                 <h2>WEAR THE BEST</h2>
                 <h4>Handmade & High Quality</h4>
-
-                <!-- <div class="p-relative">
-                    <div class="play-btn">
-                        <h6 id="demo3">Check out the collection•</h6>
-                    </div>
-                    <i class="bi bi-play-fill"></i>
-                </div> -->
             </div>
         </div>
     </section>
@@ -112,12 +75,6 @@
                     <div class="col-lg-9">
                         <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/discount.jpg' ?>"
                             alt="video" />
-                        <!-- <div class="p-relative">
-                            <div class="play-btn">
-                                <h6 id="video_text">Brand Collection Summer'23 Movie•</h6>
-                            </div>
-                            <i class="bi bi-play-fill"></i>
-                        </div> -->
                     </div>
 
                     <div class="col-lg-3">
@@ -129,9 +86,6 @@
                             <p class="small-title text-right mt-3">
                                 Skillfully knitted by local women artisans
                             </p>
-                            <!-- <p class="content">
-                                Skillfully knitted and produced by women artisan; high-quality, beautifully crafted product.
-                            </p> -->
                         </div>
                     </div>
                 </div>
@@ -264,62 +218,10 @@
     </section>
     <!--Subscribe Item section end -->
 
-    <!-- Footer top section -->
-    <section class="footer-top-section home-footer pb-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-12 mb-md-5">
-                    <div class="footer-widget about-widget">
-                        <div class="footer-logo d-flex flex-column align-items-center">
-                            <div class="logo-wrapper mb-4">
-                                <img class="img-fluid"
-                                    src="<?php echo get_stylesheet_directory_uri() . '/assets/img/logo-head-removed-bg.png' ?>" />
-                            </div>
-                            <h3>Lalita Handmade Collections</h3>
-                            <h4>Wear The Best</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 offset-lg-2">
-                    <div class="footer-widget">
-                        <h6 class="fw-title">useful Links</h6>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="#">Shop</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h6 class="fw-title">Contact</h6>
-                        <div class="text-box">
-                            <p>Lalita Handmade Collections Pvt. Ltd.</p>
-                            <p>Khauma, Bhaktapur, Nepal</p>
-                            <p>9840252557</p>
-                            <p>eleganthandicreafts02@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Footer top section end -->
-
-    <!-- Footer section -->
-    <footer class="footer-section">
-        <div class="container d-flex justify-content-center">
-            <p class="copyright">
-                Copyright &copy;
-                <script>document.write(new Date().getFullYear());</script> All rights reserved</a>
-            </p>
-        </div>
-    </footer>
-    <!-- Footer section end -->
+    <?php get_template_part('template-parts/footer') ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri() . '/assets/js/navbar.js' ?>"></script>
     <script src="<?php echo get_stylesheet_directory_uri() . '/assets/js/main.js' ?>"></script>
 </body>
 

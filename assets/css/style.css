@@ -374,8 +374,7 @@ ol {
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  position: relative;
 }
 
 .hero-item {
