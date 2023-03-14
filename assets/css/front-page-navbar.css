@@ -9,17 +9,19 @@
 }
 
 #primary-menu a {
-  color: black !important;
+  color: white !important;
   letter-spacing: 2px !important;
 }
 
 .navbar {
+  background: transparent;
+  position: absolute;
   z-index: 10;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
   max-width: 1063px;
 }
 

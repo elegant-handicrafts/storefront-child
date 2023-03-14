@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css' ?>" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/font-awesome.min.css' ?>" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/style.css' ?>" />
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/navbar.css' ?>" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/front-page-navbar.css' ?>" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <title>Lalita's - Home</title>
@@ -137,13 +137,14 @@
         <div class="container">
             <div class="featured-div">
                 <div class="row align-items-center">
-                    <div class="col-sm-7">
+                    <div class="col-s   m-7">
                         <div class="featured-img-section">
                             <img class="featured-img img-fluid"
                                 src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/featured-1.jpg' ?>"
                                 alt="big" />
-                            <!-- <img class="featured-img" src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/product-04.jpg' ?>" alt="big" /> -->
-                            <i class="bi bi-plus-circle-fill"></i>
+                            <a href="<?php echo get_permalink(wc_get_page_id('shop')) ?>">
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -151,7 +152,6 @@
                             <img class="img-fluid"
                                 src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/featured-2.jpeg' ?>"
                                 alt="small" />
-                            <!-- <img class="" src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/product-5.jpg' ?>" alt="big" /> -->
                             <p class="content mb-0">
                                 Mix and match with any outfits. Build your style with our premium quality
                                 handmade

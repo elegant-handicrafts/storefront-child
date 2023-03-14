@@ -75,3 +75,15 @@ if (!function_exists('elegant_copyright')) {
     }
 }
 add_action('storefront_footer', 'elegant_copyright', 10);
+
+
+if (!function_exists('elegant_styles')) {
+    function elegant_styles()
+    {
+        wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css', array(), '1.0', 'all');
+        wp_enqueue_style('font_awesome', get_stylesheet_directory_uri() . '/assets/css/font-awesome.min.css', array(), '1.0', 'all');
+        wp_enqueue_style('navbar', get_stylesheet_directory_uri() . '/assets/css/navbar.css', array(), '1.0', 'all');
+        wp_enqueue_style('style', get_stylesheet_directory_uri() . '/assets/css/style.css', array(), '1.0', 'all');
+    }
+}
+add_action('init', 'elegant_styles');

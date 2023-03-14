@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css' ?> " />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/font-awesome.min.css' ?> " />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/style.css' ?> " />
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/navbar.css' ?>" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/assets/css/front-page-navbar.css' ?>" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <title>Lalita's - About Us</title>
