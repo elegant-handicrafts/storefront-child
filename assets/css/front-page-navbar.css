@@ -1,14 +1,14 @@
-#primary-menu ul {
+#site-navigation ul {
   display: flex !important;
   list-style-type: none;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-#primary-menu ul li {
+#site-navigation ul li {
   margin-left: 20px;
 }
 
-#primary-menu a {
+#site-navigation a {
   color: white !important;
   letter-spacing: 2px !important;
 }

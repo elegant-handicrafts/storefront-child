@@ -87,3 +87,22 @@ if (!function_exists('elegant_styles')) {
     }
 }
 add_action('init', 'elegant_styles');
+
+
+function elegant_add_search_bar()
+{
+    ?>
+    <div style="margin-bottom:37px">
+        <?php
+        storefront_product_search();
+        ?>
+    </div>
+    <?php
+}
+add_action('woocommerce_before_shop_loop', 'elegant_add_search_bar', 10);
+
+register_nav_menus(
+    array(
+        'default' => __('Default Menu')
+    )
+);
