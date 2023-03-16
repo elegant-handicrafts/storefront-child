@@ -1,0 +1,99 @@
+@font-face {
+  font-family: senlot;
+  src: url(../fonts/insigne\ -\ Senlot\ Serif\ Ext\ Regular.otf);
+}
+@font-face {
+  font-family: horley-italic;
+  src: url(../fonts/Horley\ Old\ Style\ MT\ Italic.ttf);
+}
+
+.orange-color {
+  color: #dc6e11;
+}
+
+.white-color {
+  color: white;
+}
+
+.footer-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.horley-italic {
+  font-family: horley-italic;
+}
+
+.small-title {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #282828;
+  padding: 180px 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 128px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info > img {
+  margin-bottom: 24px;
+}
+.footer-info > h2 {
+  margin-bottom: 18px;
+}
+
+.useful-links ul {
+  margin: 24px 0 0 0;
+  padding: 0;
+}
+.useful-links ul li {
+  list-style-type: none;
+}
+.useful-links ul li a {
+  color: gray !important;
+}
+
+.footer-contacts ul {
+  margin: 24px 0 0 0;
+  padding: 0;
+}
+.footer-contacts ul li {
+  list-style-type: none;
+  margin-bottom: 18px;
+}
+
+.copyright {
+  color: #505050;
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1122px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer h2 {
+    font-size: 24px;
+  }
+
+  .useful-links {
+    display: none;
+  }
+}

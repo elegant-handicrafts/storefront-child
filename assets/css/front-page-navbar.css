@@ -11,21 +11,11 @@
 #site-navigation a {
   color: white !important;
   letter-spacing: 2px !important;
+  text-decoration: none;
 }
 
-.navbar {
-  background: transparent;
-  position: absolute;
-  z-index: 10;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  max-width: 1063px;
-}
-
-.navbar-wrapper {
-  display: flex;
-  justify-content: center;
+@media screen and (max-width: 400px) {
+  #site-navigation ul li {
+    margin-left: 8px;
+  }
 }

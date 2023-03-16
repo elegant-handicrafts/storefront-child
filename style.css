@@ -44,15 +44,8 @@ Template:     storefront
   margin-bottom: 0 !important;
 }
 
-footer {
-  padding: 50px 0 !important;
-}
-
 @media screen and (max-width: 767px) {
   .site-content {
     min-height: calc(100vh - 186px - 100px);
-  }
-  footer {
-    margin-bottom: 68px;
   }
 }

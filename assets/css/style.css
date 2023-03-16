@@ -733,21 +733,7 @@ ol {
   Footer Top section
 ---------------------*/
 
-.footer-top-section {
-  padding-top: 180px;
-  padding-bottom: 50px;
-  background: #282828;
-}
-
-.footer-top-section.home-footer {
-  padding-bottom: 0;
-}
-
-.footer-widget {
-  margin-bottom: 50px;
-}
-
-.footer-widget .fw-title {
+.fw-title {
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
@@ -755,80 +741,14 @@ ol {
   letter-spacing: -0.2px;
 }
 
-.footer-widget ul {
-  list-style: none;
-}
-
-.footer-widget ul li {
-  font-size: 14px;
-  display: block;
-  margin-bottom: 10px;
-  color: #fff;
-  opacity: 0.55;
-}
-
-.footer-widget ul li:last-child {
-  margin-bottom: 0;
-}
-
-.footer-widget ul li a {
-  color: #fff;
-  letter-spacing: 0.2;
-}
-
-.footer-widget .text-box p {
-  color: #fff;
-  margin-bottom: 18px;
-}
-
-.footer-widget .text-box p:last-child {
-  margin-bottom: 0;
-}
-
-/* .about-widget .footer-logo {
-	margin-bottom: 50px;
-} */
-.footer-logo .logo-wrapper {
-  width: 90px;
-  height: 90px;
-}
-.footer-logo .logo-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.about-widget .footer-logo h4 {
-  font-family: horley-italic;
-  color: #dc6e11;
-}
-.about-widget .footer-logo h3 {
-  font-family: horley-italic;
-  color: #fff;
-  margin-bottom: 8px;
-}
 .about-widget p {
   margin-bottom: 40px;
 }
 .footer-widget .text-box p {
   letter-spacing: 0.2;
 }
-
 .about-widget .cards img {
   margin-right: 1px;
-}
-
-/*------------------
-  Footer section
----------------------*/
-
-.footer-section {
-  background: #222222;
-  padding: 12px;
-}
-.footer-section .copyright {
-  color: #505050;
-  margin-bottom: 0;
-  line-height: normal;
 }
 
 /*------------------
