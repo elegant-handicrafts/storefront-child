@@ -36,7 +36,7 @@
     <!-- Hero section end -->
 
     <section class="what-new-section section-gap">
-        <div class="container-fluid">
+        <div class="container">
             <div class="what-new-div">
                 <div class="row">
                     <div class="col-md-5">
