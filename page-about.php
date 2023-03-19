@@ -54,7 +54,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-5 offset-md-2" style="position:relative">
+                    <div class="d-none d-md-block col-md-5 offset-md-2" style="position:relative">
                         <div class="big-who-img-wrapper">
                             <img class="img-fluid"
                                 src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/featured-3.jpg' ?>"
@@ -81,7 +81,7 @@
                             alt="video" />
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="p-5 col-lg-4">
                         <div class="video-title mt-5">
                             <h2 class="main-title">What we <br /> do <span>Here</span> </h2>
                             <p class="content mt-4">
@@ -98,7 +98,7 @@
     </section>
     <!-- Video section end -->
 
-    <section class="featured-item-section section-gap">
+    <section class="d-none d-md-block featured-item-section section-gap">
         <div class="featured-item-div py-5">
             <div class="container ">
                 <div class="about-title d-flex justify-content-center align-items-center">

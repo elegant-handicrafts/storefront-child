@@ -897,6 +897,50 @@ ol {
     border-bottom: 1px solid #f1f1f1;
   }
   .hero-section {
-    height: auto;
+    height: 90vh;
+  }
+  .hero-item .hero-content h2 {
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  .hero-item .hero-content h4 {
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+
+  .main-title {
+    font-size: 24px;
+  }
+  .main-title span {
+    text-transform: lowercase;
+    font-family: horley-italic;
+    color: #dc6e11;
+  }
+  .small-title,
+  .text-btn {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+  }
+  .content {
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-title {
+    transform: translateY(-50px);
+  }
+  .video-section {
+    margin-top: 0;
+  }
+  .video-title .main-title {
+    font-size: 24px;
+    text-align: left;
+  }
+  .what-new-section {
+    margin-top: 0px;
   }
 }

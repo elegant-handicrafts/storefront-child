@@ -43,12 +43,12 @@
 
             <div class="about-images">
                 <div class="d-flex row justify-content-center">
-                    <div class="col-md-3 child">
+                    <div class="d-none d-md-block col-md-3 child">
                         <img class="img-fluid"
                             src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/featured-1.jpg' ?>"
                             alt="image" />
                     </div>
-                    <div class="col-md-5 child">
+                    <div class="d-none d-md-block col-md-5 child">
                         <img class="img-fluid"
                             src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/featured-3-3.jpg' ?>"
                             alt="image" />
@@ -70,18 +70,18 @@
         <div class="container">
             <div class="video-section-div">
                 <div class="row">
-                    <div class="col-lg-9">
+                    <div class="d-none d-md-block col-lg-9">
                         <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/featured/discount.jpg' ?>"
                             alt="video" />
                     </div>
 
-                    <div class="col-lg-3">
-                        <div class="video-title mt-5">
+                    <div class="col-12 col-lg-3 px-5 px-md-0">
+                        <div class="video-title mt-0 mt-lg-5">
                             <h2 class="main-title">From Fleece <br /> to <span>Fashion</span> </h2>
-                            <p class="small-title text-right mt-3">
+                            <p class="small-title text-md-right mt-3">
                                 Cozy Journey of Woolen Clothes Production
                             </p>
-                            <p class="small-title text-right mt-3">
+                            <p class="small-title text-md-right mt-3">
                                 Skillfully knitted by local women artisans
                             </p>
                         </div>
@@ -93,7 +93,7 @@
     <!-- Video section end -->
 
     <!-- What's New section -->
-    <section class="what-new-section section-gap">
+    <section class="d-none d-lg-block what-new-section section-gap">
         <div class="container p-0">
             <div class="what-new-div">
                 <div class="row">
@@ -131,7 +131,7 @@
     <!-- What's New section end -->
 
     <!-- Featured section -->
-    <section class="featured-section section-gap">
+    <section class="d-none d-md-block featured-section section-gap">
         <div class="container">
             <div class="featured-div">
                 <div class="row align-items-center">
